@@ -17,21 +17,18 @@
     "addProxy": "node ./scripts/addProxy"
   },
   "keywords": [
-    "react",
-    "express",
-    "javascript",
-    "full-stack",
-    "template",
-    "node"
+    "react"
   ],
-  "author": "Haochuan Liu<haochuan.liu@gmail.com>(https://haochuan.io)",
-  "license": "MIT",
+  "author": "Colm Begley",
+  "license": "ISG",
   "dependencies": {
     "body-parser": "^1.17.2",
+    "bootstrap": "^3.3.7",
     "compression": "^1.7.0",
     "express": "^4.15.3",
     "helmet": "^3.8.0",
     "morgan": "^1.8.2",
+    "react-dom": "^16.2.0",
     "serve-favicon": "^2.4.3"
   },
   "devDependencies": {
