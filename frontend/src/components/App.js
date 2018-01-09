@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
-import logo from './logo.svg'
-import derrylogo from './dcsdc.png'
-import './App.css'
-import Users from './Users.js'
+import logo from '../img/logo.svg'
+import derrylogo from '../img/dcsdc.png'
+import '../App.css'
 
 class App extends Component {
   render() {
@@ -22,7 +21,6 @@ class App extends Component {
           <p className='App-intro col-xs-8 col-sm-8 col-md-8 col-lg-8'>
             Basic React Application <code>src/App.js</code>.
           </p>
-          <Users />
         </div>
       </div>
     )
