@@ -5,5 +5,5 @@
  */
 
 export default function(req, res, next) {
-  next();
+  next()
 }

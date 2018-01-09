@@ -17,5 +17,5 @@ const env = {
     name: 'test',
     port: 4000
   }
-};
-export default env[process.env.NODE_ENV];
+}
+export default env[process.env.NODE_ENV]

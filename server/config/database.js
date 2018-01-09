@@ -6,20 +6,20 @@
 
 /*
  * MongoDB
- * import mongoose from 'mongoose';
- * import env from './env';
+ * import mongoose from 'mongoose'
+ * import env from './env'
  * const dbHost = {
  *  dev: 'xxxxxx',
  *  production: 'xxxxx'
- * };
- * mongoose.connect(dbHost[env.name]);
- * mongoose.Promise = require('bluebird');
+ * }
+ * mongoose.connect(dbHost[env.name])
+ * mongoose.Promise = require('bluebird')
  */
 
 /*
  * Mysql
- * import mysql from 'mysql';
- * import env from './env';
+ * import mysql from 'mysql'
+ * import env from './env'
  * const settings = {
  *  dev: {
  *    host: 'xxxx',
@@ -31,15 +31,15 @@
  *    user: 'xxxx',
  *    database: 'xxxxx'
  *  }
- * };
- * const pool = mysql.createPool(settings[env.name]);
+ * }
+ * const pool = mysql.createPool(settings[env.name])
  * const getMysqlConnection = (cb) {
  *  pool.getConnection((err, connection) => {
- *    if (err) throw err;
- *    cb(connection);
- *  });
+ *    if (err) throw err
+ *    cb(connection)
+ *  })
  * }
- * export default getMysqlConnection;
+ * export default getMysqlConnection
  */
 
 /*

@@ -1,27 +1,32 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import derrylogo from './dcsdc.png';
-import './App.css';
+import React, { Component } from 'react'
+import logo from './logo.svg'
+import derrylogo from './dcsdc.png'
+import './App.css'
+import Users from './Users.js'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header col-md-12">
-          <div className='row col-md-12'>
-          <img src={derrylogo} className="Council-logo col-md-3" alt="logo" />
-          <img src={logo} className="App-logo col-md-4 offset-md-5" alt="logo" />
-          </div>
-          <div className='row col-md-12'>
-          <h1 className="App-title">Welcome to React</h1>
+      <div className='App'>
+        <header className='App-header '>
+          <div className='row col-xs-12 col-sm-12 col-md-12 col-lg-12'>
+            <img src={derrylogo} className='Council-logo col-4 col-xs-6 col-sm-3 col-md-3 col-lg-3' alt='logo' />
+            <div className='col-xs-0 col-sm-0 col-md-6 col-lg-6'/>
+            <img src={logo} className='App-logo col-xs-6 col-sm-3 col-md-3 col-lg-3' alt='logo' />
+            </div>
+            <div className='row col-xs-12 col-sm-12 col-md-12 col-lg-12'>
+            <h1 className='App-title'>Welcome to Derry & Strabane Council</h1>
           </div>
         </header>
-        <p className="App-intro">
-          Basic React Application <code>src/App.js</code>.
-        </p>
+        <div id='appBody' className='col-xs-12 col-sm-12 col-md-12 col-lg-12'>
+          <p className='App-intro col-xs-8 col-sm-8 col-md-8 col-lg-8'>
+            Basic React Application <code>src/App.js</code>.
+          </p>
+          <Users />
+        </div>
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App

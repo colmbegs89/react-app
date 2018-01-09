@@ -4,13 +4,13 @@
 
 describe('Example Test', () => {
   test('Example Test 1', () => {
-    expect(2 > 1).toBeTruthy();
-  });
+    expect(2 > 1).toBeTruthy()
+  })
   test('Example Test 2', () => {
-    expect(2 < 1).toBeFalsy();
-  });
+    expect(2 < 1).toBeFalsy()
+  })
   test('Example Test 3', () => {
-    const num = 1;
-    expect(num.toString()).toBe('1');
-  });
-});
+    const num = 1
+    expect(num.toString()).toBe('1')
+  })
+})
